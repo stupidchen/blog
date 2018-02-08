@@ -1,4 +1,4 @@
-package com.stupidchen.blog.object;
+package com.stupidchen.blog.model;
 
 /**
  * Created by mike on 12/15/17.

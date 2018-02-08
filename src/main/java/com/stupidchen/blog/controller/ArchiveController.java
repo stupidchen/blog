@@ -1,8 +1,8 @@
 package com.stupidchen.blog.controller;
 
 import com.stupidchen.blog.data.DataFactory;
-import com.stupidchen.blog.object.Archive;
-import com.stupidchen.blog.object.Response;
+import com.stupidchen.blog.model.Archive;
+import com.stupidchen.blog.model.Response;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;

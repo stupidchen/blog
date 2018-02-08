@@ -1,7 +1,7 @@
 package com.stupidchen.blog.data;
 
-import com.stupidchen.blog.object.Archive;
-import com.stupidchen.blog.object.Response;
+import com.stupidchen.blog.model.Archive;
+import com.stupidchen.blog.model.Response;
 
 /**
  * Created by mike on 12/15/17.
