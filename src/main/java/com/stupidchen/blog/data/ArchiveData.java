@@ -1,12 +1,16 @@
-package com.stupidchen.blog.model;
+package com.stupidchen.blog.data;
+
+import com.stupidchen.blog.model.Comment;
 
 /**
- * Created by mike on 12/15/17.
+ * Created by mike on 2/10/18.
  */
-public class Archive {
+public class ArchiveData {
+    private String id;
+
     private String title;
 
-    private String content;
+    private String context;
 
     private String author;
 
@@ -16,21 +20,30 @@ public class Archive {
 
     private Comment[] comments;
 
+    public String getId() {
+        return id;
+    }
+
+    public ArchiveData setId(String id) {
+        this.id = id;
+        return this;
+    }
+
     public String getTitle() {
         return title;
     }
 
-    public Archive setTitle(String title) {
+    public ArchiveData setTitle(String title) {
         this.title = title;
         return this;
     }
 
-    public String getContent() {
-        return content;
+    public String getContext() {
+        return context;
     }
 
-    public Archive setContent(String content) {
-        this.content = content;
+    public ArchiveData setContext(String context) {
+        this.context = context;
         return this;
     }
 
@@ -38,7 +51,7 @@ public class Archive {
         return author;
     }
 
-    public Archive setAuthor(String author) {
+    public ArchiveData setAuthor(String author) {
         this.author = author;
         return this;
     }
@@ -47,7 +60,7 @@ public class Archive {
         return pubTime;
     }
 
-    public Archive setPubTime(String pubTime) {
+    public ArchiveData setPubTime(String pubTime) {
         this.pubTime = pubTime;
         return this;
     }
@@ -56,7 +69,7 @@ public class Archive {
         return editTime;
     }
 
-    public Archive setEditTime(String editTime) {
+    public ArchiveData setEditTime(String editTime) {
         this.editTime = editTime;
         return this;
     }
@@ -65,7 +78,7 @@ public class Archive {
         return comments;
     }
 
-    public Archive setComments(Comment[] comments) {
+    public ArchiveData setComments(Comment[] comments) {
         this.comments = comments;
         return this;
     }
